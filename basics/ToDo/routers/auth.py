@@ -16,7 +16,7 @@ router = APIRouter(
 )
 
 SECRET_KEY = "../config/settings.SECRET_KEY"
-ALGORITHM = "HS256"
+ALGORITHM = "../config/settings.ALGORITHM"
 
 bcrypt_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_bearer = OAuth2PasswordBearer(tokenUrl="auth/token")
@@ -34,6 +34,12 @@ class token(BaseModel):
     token_type: str
     
 def get_db():
+    """
+    Dependency that returns a database session.
+    
+    This dependency is used as a generator to create a new database session
+    and then close it when the generator is exhausted.
+    """
     db = SessionLocal()
     try:
         yield db
@@ -42,7 +48,20 @@ def get_db():
 
 db_dependency = Annotated[Session, Depends(get_db)]
 
-def authenticate_user(username: str, password: str, db):
+def authenticate_user(username: str, 
+                      password: str, 
+                      db):
+    """
+    Authenticate a user given their username and password.
+
+    Args:
+        username (str): The user's username.
+        password (str): The user's password.
+        db (Session): The database session to use.
+
+    Returns:
+        Users: The user's database model if authentication is successful, otherwise False.
+    """
     user = db.query(Users).filter(Users.username == username).first()
     if not user:
         return False
@@ -51,16 +70,36 @@ def authenticate_user(username: str, password: str, db):
     return user
     
 def create_access_token(username: str, user_id: int, role: str, expires_delta: timedelta):
+    """
+    Generate an access token for the given user.
+
+    Args:
+        username (str): The username of the user.
+        user_id (int): The ID of the user.
+        role (str): The role of the user.
+        expires_delta (timedelta): The expiry time delta for the token.
+
+    Returns:
+        str: The generated access token.
+    """
     encode = {"sub": username, "id": user_id, "role": role}
-    # if expires_delta:
-    #     expires = datetime.now(timezone.utc) + expires_delta
-    # else:
-    #     expires = datetime.now(timezone.utc) + timedelta(minutes=15)
     expires = datetime.now(timezone.utc) + expires_delta
     encode.update({"exp": expires})
     return jwt.encode(encode, SECRET_KEY, algorithm=ALGORITHM)
 
 async def get_current_user(token: Annotated[str, Depends(oauth2_bearer)]):
+    """
+    Return the current user given the provided access token.
+
+    Args:
+        token (str): The access token to validate and extract the user from.
+
+    Returns:
+        dict: The user's details, containing the keys "username", "id", and "role".
+
+    Raises:
+        HTTPException: If the token is invalid, or if the user is not found.
+    """
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
         username: str = payload.get("sub")
@@ -77,6 +116,16 @@ async def get_current_user(token: Annotated[str, Depends(oauth2_bearer)]):
 @router.post("/", status_code=status.HTTP_201_CREATED)
 async def create_user(db: db_dependency, 
                       create_user_request: CreateUserRequest):
+    """
+    Create a new user.
+
+    Args:
+        db (Session): The database session to use.
+        create_user_request (CreateUserRequest): The user's details to create.
+
+    Returns:
+        None
+    """
     create_user_model = Users(
         username=create_user_request.username,
         first_name=create_user_request.first_name,
@@ -92,7 +141,22 @@ async def create_user(db: db_dependency,
 @router.post("/token")
 async def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm, Depends()],
                                  db: db_dependency):
-    user = authenticate_user(form_data.username, form_data.password, db)
+    """
+    Login for access token.
+
+    Args:
+        form_data (OAuth2PasswordRequestForm, Depends): The form data containing the username and password.
+        db (Session): The database session.
+
+    Returns:
+        dict: The access token details, including the token and token type.
+
+    Raises:
+        HTTPException: If the username or password is incorrect.
+    """
+    user = authenticate_user(form_data.username, 
+                             form_data.password, 
+                             db)
     if not user:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
                             detail="Incorrect username or password")   
