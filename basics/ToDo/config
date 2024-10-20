@@ -1,4 +1,0 @@
-SETTINGS = {
-    'SECRET_KEY': '77c70fd8c583d8bd2a4f782ba680fe1b7051a81086c8474dd25aaf81ed35ecbf' # openssl rand -hex 32
-}
-
