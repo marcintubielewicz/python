@@ -29,7 +29,7 @@ class CreateUserRequest(BaseModel):
     hashed_password: str
     role: str
     
-class token(BaseModel):
+class Token(BaseModel):
     access_token: str
     token_type: str
     
@@ -82,7 +82,9 @@ def create_access_token(username: str, user_id: int, role: str, expires_delta: t
     Returns:
         str: The generated access token.
     """
-    encode = {"sub": username, "id": user_id, "role": role}
+    encode = {"sub": username, 
+              "id": user_id, 
+              "role": role}
     expires = datetime.now(timezone.utc) + expires_delta
     encode.update({"exp": expires})
     return jwt.encode(encode, SECRET_KEY, algorithm=ALGORITHM)
@@ -108,7 +110,9 @@ async def get_current_user(token: Annotated[str, Depends(oauth2_bearer)]):
         if username is None or user_id is None or user_role is None:
             raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, 
                                 detail="Could not validate credentials")
-        return {"username": username, "id": user_id, "role": user_role}
+        return {"username": username, 
+                "id": user_id, 
+                "role": user_role}
     except JWTError:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, 
                             detail="Could not validate credentials")
@@ -135,10 +139,11 @@ async def create_user(db: db_dependency,
         role=create_user_request.role,
         is_active=True
     )
+    
     db.add(create_user_model)
     db.commit()
     
-@router.post("/token")
+@router.post("/token", response_model=Token)
 async def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm, Depends()],
                                  db: db_dependency):
     """
@@ -160,5 +165,8 @@ async def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm,
     if not user:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
                             detail="Incorrect username or password")   
-    token = create_access_token(user.username, user.id, user.role, timedelta(minutes=20))    
+    token = create_access_token(user.username, 
+                                user.id, 
+                                user.role, 
+                                timedelta(minutes=20))    
     return {'access_token': token, 'token_type': 'bearer'}

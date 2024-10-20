@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 from models import Todos
 from database import SessionLocal
 from .auth import get_current_user
+from starlette import status
 
 router = APIRouter()
 
@@ -31,7 +32,7 @@ class TodoRequest(BaseModel):
     priority: int=Field(gt=0, lt=6)
     complete: bool 
     
-@router.get("/")
+@router.get("/", status_code = status.HTTP_200_OK)
 async def read_all(user: user_dependency, 
                    db: db_dependency):
     """
@@ -46,9 +47,11 @@ async def read_all(user: user_dependency,
     Returns:
     - List[Todos]: A list of all todos for the current user.
     """
+    if user is None:
+        raise HTTPException(status_code=401, detail="Unauthorized")
     return db.query(Todos).filter(Todos.owner_id == user.get("id")).all()
 
-@router.get("/todo/{id}")
+@router.get("/todo/{id}", status_code=status.HTTP_200_OK)
 async def read_todo(user: user_dependency,
                     db: db_dependency, 
                     id: int = Path(gt=0)):
@@ -74,7 +77,7 @@ async def read_todo(user: user_dependency,
     return todo_model
 
 
-@router.post("/todo, status_code=status.HTTP_201_CREATED")
+@router.post("/todo", status_code=status.HTTP_201_CREATED)
 async def create_todo(user: user_dependency, 
                       db: db_dependency, 
                       todoRequest: TodoRequest):
@@ -103,7 +106,7 @@ async def create_todo(user: user_dependency,
     return todo_model
 
     
-@router.put("/todo/{id}")
+@router.put("/todo/{id}", status_code=status.HTTP_204_NO_CONTENT)
 async def update_todo(user: user_dependency,
                       db: db_dependency, 
                       todoRequest: TodoRequest, 
@@ -140,7 +143,7 @@ async def update_todo(user: user_dependency,
     db.refresh(todo_model)
     return todo_model
 
-@router.delete("/todo/{id}")
+@router.delete("/todo/{id}", status_code=status.HTTP_204_NO_CONTENT)
 async def delete_todo(user: user_dependency, 
                       db: db_dependency, 
                       id: int = Path(gt=0)):
