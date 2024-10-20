@@ -9,14 +9,25 @@ from database import SessionLocal
 from starlette import status
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from jose import jwt, JWTError
+import json
 
 router = APIRouter(
     prefix='/auth',
     tags=['auth']
 )
 
-SECRET_KEY = "../config/settings.SECRET_KEY"
-ALGORITHM = "../config/settings.ALGORITHM"
+def load_config(filename):
+    with open(filename, 'r') as file:
+        config = json.load(file)
+    return config
+
+config = load_config('config.json')
+
+SECRET_KEY = config.get('SECRET_KEY')
+ALGORITHM = config.get('ALGORITHM')
+
+if ALGORITHM is None:
+    raise ValueError("ALGORITHM is not set in the configuration file")
 
 bcrypt_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_bearer = OAuth2PasswordBearer(tokenUrl="auth/token")
@@ -135,7 +146,7 @@ async def create_user(db: db_dependency,
         first_name=create_user_request.first_name,
         last_name=create_user_request.last_name,
         email=create_user_request.email,
-        hashed_password=bcrypt_context.hash(create_user_request.password),
+        hashed_password=bcrypt_context.hash(create_user_request.hashed_password),
         role=create_user_request.role,
         is_active=True
     )
