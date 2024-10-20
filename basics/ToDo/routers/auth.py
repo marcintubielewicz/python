@@ -12,7 +12,7 @@ from jose import jwt, JWSError
 
 router = APIRouter()
 
-SECRET_KEY = '77c70fd8c583d8bd2a4f782ba680fe1b7051a81086c8474dd25aaf81ed35ecbf' # openssl rand -hex 32
+SECRET_KEY = "../config/settings.SECRET_KEY"
 ALGORITHM = "HS256"
 
 bcrypt_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
