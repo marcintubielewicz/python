@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "autoflush",
+        "fastapi",
+        "passlib",
+        "pydantic",
+        "sqlalchemy",
+        "starlette",
+        "todos",
+        "todosapp",
+        "uvicorn"
+    ]
+}

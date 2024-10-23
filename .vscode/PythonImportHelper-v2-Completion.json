@@ -1,0 +1,1038 @@
+[
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "models",
+        "description": "models",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "todos",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "basics.ToDo.alembic.env",
+        "description": "basics.ToDo.alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "basics.ToDo.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "basics.ToDo.alembic.env",
+        "description": "basics.ToDo.alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "basics.ToDo.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "basics.ToDo.alembic.env",
+        "description": "basics.ToDo.alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\n# if config.config_file_name is not None:\nfileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = models.Base.metadata",
+        "detail": "basics.ToDo.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "basics.ToDo.alembic.env",
+        "description": "basics.ToDo.alembic.env",
+        "peekOfCode": "target_metadata = models.Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "basics.ToDo.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "basics.ToDo.routers.admin",
+        "description": "basics.ToDo.routers.admin",
+        "peekOfCode": "def get_db():\n    \"\"\"\n    Dependency that returns a database session.\n    This dependency is used as a generator to create a new database session\n    and then close it when the generator is exhausted.\n    \"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "basics.ToDo.routers.admin",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.admin",
+        "description": "basics.ToDo.routers.admin",
+        "peekOfCode": "router = APIRouter(\n    prefix='/admin',\n    tags=['admin']\n)\ndef get_db():\n    \"\"\"\n    Dependency that returns a database session.\n    This dependency is used as a generator to create a new database session\n    and then close it when the generator is exhausted.\n    \"\"\"",
+        "detail": "basics.ToDo.routers.admin",
+        "documentation": {}
+    },
+    {
+        "label": "db_dependency",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.admin",
+        "description": "basics.ToDo.routers.admin",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\n@router.get(\"/todo\", status_code=status.HTTP_200_OK)\nasync def read_all(user:user_dependency,\n                   db: db_dependency):\n    \"\"\"\n    Return all todos in the database.\n    This endpoint is only accessible to administrators.\n    \"\"\"\n    if user is None or user.get('role') != 'admin':",
+        "detail": "basics.ToDo.routers.admin",
+        "documentation": {}
+    },
+    {
+        "label": "user_dependency",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.admin",
+        "description": "basics.ToDo.routers.admin",
+        "peekOfCode": "user_dependency = Annotated[dict, Depends(get_current_user)]\n@router.get(\"/todo\", status_code=status.HTTP_200_OK)\nasync def read_all(user:user_dependency,\n                   db: db_dependency):\n    \"\"\"\n    Return all todos in the database.\n    This endpoint is only accessible to administrators.\n    \"\"\"\n    if user is None or user.get('role') != 'admin':\n        raise HTTPException(status_code=401, ",
+        "detail": "basics.ToDo.routers.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUserRequest",
+        "kind": 6,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "class CreateUserRequest(BaseModel):\n    username: str\n    first_name: str\n    last_name: str\n    email: str\n    hashed_password: str\n    role: str\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\ndef get_db():\n    \"\"\"\n    Dependency that returns a database session.\n    This dependency is used as a generator to create a new database session\n    and then close it when the generator is exhausted.\n    \"\"\"\n    db = SessionLocal()",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "load_config",
+        "kind": 2,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "def load_config(filename):\n    with open(filename, 'r') as file:\n        config = json.load(file)\n    return config\nconfig = load_config('config.json')\nSECRET_KEY = config.get('SECRET_KEY')\nALGORITHM = config.get('ALGORITHM')\nif ALGORITHM is None:\n    raise ValueError(\"ALGORITHM is not set in the configuration file\")\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "def get_db():\n    \"\"\"\n    Dependency that returns a database session.\n    This dependency is used as a generator to create a new database session\n    and then close it when the generator is exhausted.\n    \"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_user",
+        "kind": 2,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "def authenticate_user(username: str, \n                      password: str, \n                      db):\n    \"\"\"\n    Authenticate a user given their username and password.\n    Args:\n        username (str): The user's username.\n        password (str): The user's password.\n        db (Session): The database session to use.\n    Returns:",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "def create_access_token(username: str, user_id: int, role: str, expires_delta: timedelta):\n    \"\"\"\n    Generate an access token for the given user.\n    Args:\n        username (str): The username of the user.\n        user_id (int): The ID of the user.\n        role (str): The role of the user.\n        expires_delta (timedelta): The expiry time delta for the token.\n    Returns:\n        str: The generated access token.",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "router = APIRouter(\n    prefix='/auth',\n    tags=['auth']\n)\ndef load_config(filename):\n    with open(filename, 'r') as file:\n        config = json.load(file)\n    return config\nconfig = load_config('config.json')\nSECRET_KEY = config.get('SECRET_KEY')",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "config = load_config('config.json')\nSECRET_KEY = config.get('SECRET_KEY')\nALGORITHM = config.get('ALGORITHM')\nif ALGORITHM is None:\n    raise ValueError(\"ALGORITHM is not set in the configuration file\")\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    first_name: str",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "SECRET_KEY = config.get('SECRET_KEY')\nALGORITHM = config.get('ALGORITHM')\nif ALGORITHM is None:\n    raise ValueError(\"ALGORITHM is not set in the configuration file\")\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    first_name: str\n    last_name: str",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "ALGORITHM = config.get('ALGORITHM')\nif ALGORITHM is None:\n    raise ValueError(\"ALGORITHM is not set in the configuration file\")\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    first_name: str\n    last_name: str\n    email: str",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt_context",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "bcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    first_name: str\n    last_name: str\n    email: str\n    hashed_password: str\n    role: str\nclass Token(BaseModel):",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_bearer",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "oauth2_bearer = OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateUserRequest(BaseModel):\n    username: str\n    first_name: str\n    last_name: str\n    email: str\n    hashed_password: str\n    role: str\nclass Token(BaseModel):\n    access_token: str",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "db_dependency",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.auth",
+        "description": "basics.ToDo.routers.auth",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\ndef authenticate_user(username: str, \n                      password: str, \n                      db):\n    \"\"\"\n    Authenticate a user given their username and password.\n    Args:\n        username (str): The user's username.\n        password (str): The user's password.\n        db (Session): The database session to use.",
+        "detail": "basics.ToDo.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "TodoRequest",
+        "kind": 6,
+        "importPath": "basics.ToDo.routers.todos",
+        "description": "basics.ToDo.routers.todos",
+        "peekOfCode": "class TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str=Field(min_length=3, max_length=100)\n    priority: int=Field(gt=0, lt=6)\n    complete: bool \n@router.get(\"/\", status_code = status.HTTP_200_OK)\nasync def read_all(user: user_dependency, \n                   db: db_dependency):\n    \"\"\"\n    Return all todos for the current user.",
+        "detail": "basics.ToDo.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "basics.ToDo.routers.todos",
+        "description": "basics.ToDo.routers.todos",
+        "peekOfCode": "def get_db():\n    \"\"\"\n    Dependency that returns a database session.\n    This dependency is used as a generator to create a new database session\n    and then close it when the generator is exhausted.\n    \"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "basics.ToDo.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.todos",
+        "description": "basics.ToDo.routers.todos",
+        "peekOfCode": "router = APIRouter()\ndef get_db():\n    \"\"\"\n    Dependency that returns a database session.\n    This dependency is used as a generator to create a new database session\n    and then close it when the generator is exhausted.\n    \"\"\"\n    db = SessionLocal()\n    try:\n        yield db",
+        "detail": "basics.ToDo.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "db_dependency",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.todos",
+        "description": "basics.ToDo.routers.todos",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str=Field(min_length=3, max_length=100)\n    priority: int=Field(gt=0, lt=6)\n    complete: bool \n@router.get(\"/\", status_code = status.HTTP_200_OK)\nasync def read_all(user: user_dependency, \n                   db: db_dependency):",
+        "detail": "basics.ToDo.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "user_dependency",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.todos",
+        "description": "basics.ToDo.routers.todos",
+        "peekOfCode": "user_dependency = Annotated[dict, Depends(get_current_user)]\nclass TodoRequest(BaseModel):\n    title: str = Field(min_length=3)\n    description: str=Field(min_length=3, max_length=100)\n    priority: int=Field(gt=0, lt=6)\n    complete: bool \n@router.get(\"/\", status_code = status.HTTP_200_OK)\nasync def read_all(user: user_dependency, \n                   db: db_dependency):\n    \"\"\"",
+        "detail": "basics.ToDo.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "UserVerification",
+        "kind": 6,
+        "importPath": "basics.ToDo.routers.user",
+        "description": "basics.ToDo.routers.user",
+        "peekOfCode": "class UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=8)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency,\n                   db: db_dependency):\n    \"\"\"\n    Return the user's details given the provided access token.\n    Args:\n        user (dict): The currently authenticated user, passed in via the `user_dependency`.",
+        "detail": "basics.ToDo.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "basics.ToDo.routers.user",
+        "description": "basics.ToDo.routers.user",
+        "peekOfCode": "def get_db():\n    \"\"\"\n    Dependency that returns a database session.\n    This dependency is used as a generator to create a new database session\n    and then close it when the generator is exhausted.\n    \"\"\"\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "basics.ToDo.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.user",
+        "description": "basics.ToDo.routers.user",
+        "peekOfCode": "router = APIRouter(\n    prefix='/user',\n    tags=['user']\n)\ndef get_db():\n    \"\"\"\n    Dependency that returns a database session.\n    This dependency is used as a generator to create a new database session\n    and then close it when the generator is exhausted.\n    \"\"\"",
+        "detail": "basics.ToDo.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "db_dependency",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.user",
+        "description": "basics.ToDo.routers.user",
+        "peekOfCode": "db_dependency = Annotated[Session, Depends(get_db)]\nuser_dependency = Annotated[dict, Depends(get_current_user)]\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=8)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency,\n                   db: db_dependency):\n    \"\"\"",
+        "detail": "basics.ToDo.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "user_dependency",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.user",
+        "description": "basics.ToDo.routers.user",
+        "peekOfCode": "user_dependency = Annotated[dict, Depends(get_current_user)]\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=8)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency,\n                   db: db_dependency):\n    \"\"\"\n    Return the user's details given the provided access token.",
+        "detail": "basics.ToDo.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt_context",
+        "kind": 5,
+        "importPath": "basics.ToDo.routers.user",
+        "description": "basics.ToDo.routers.user",
+        "peekOfCode": "bcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass UserVerification(BaseModel):\n    password: str\n    new_password: str = Field(min_length=8)\n@router.get(\"/\", status_code=status.HTTP_200_OK)\nasync def get_user(user: user_dependency,\n                   db: db_dependency):\n    \"\"\"\n    Return the user's details given the provided access token.\n    Args:",
+        "detail": "basics.ToDo.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "basics.ToDo.database",
+        "description": "basics.ToDo.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./todosapp.db\"\nengine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "detail": "basics.ToDo.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "basics.ToDo.database",
+        "description": "basics.ToDo.database",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "detail": "basics.ToDo.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "basics.ToDo.database",
+        "description": "basics.ToDo.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "detail": "basics.ToDo.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "basics.ToDo.database",
+        "description": "basics.ToDo.database",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "basics.ToDo.database",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "basics.ToDo.main",
+        "description": "basics.ToDo.main",
+        "peekOfCode": "app = FastAPI()\nmodels.Base.metadata.create_all(bind=engine)\napp.include_router(auth.router)\napp.include_router(todos.router)\napp.include_router(admin.router)\napp.include_router(user.router)",
+        "detail": "basics.ToDo.main",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "kind": 6,
+        "importPath": "basics.ToDo.models",
+        "description": "basics.ToDo.models",
+        "peekOfCode": "class Users(Base):\n    __tablename__=\"users\"\n    id = Column(Integer, primary_key=True, index=True)  \n    username = Column(String, unique=True, index=True)\n    first_name = Column(String)\n    last_name = Column(String)\n    email = Column(String, unique=True, index=True)\n    hashed_password = Column(String)\n    role = Column(String)\n    is_active = Column(Boolean, default=True)",
+        "detail": "basics.ToDo.models",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "kind": 6,
+        "importPath": "basics.ToDo.models",
+        "description": "basics.ToDo.models",
+        "peekOfCode": "class Todos(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    description = Column(String)\n    priority = Column(Integer, default=1)\n    complete = Column(Boolean, default=False)\n    owner_id = Column(Integer, ForeignKey(Users.id))",
+        "detail": "basics.ToDo.models",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "basics.books",
+        "description": "basics.books",
+        "peekOfCode": "class Book:\n    id: int\n    title: str\n    author: str\n    description: str\n    rating: int\n    published_date: int\n    def __init__(self, id, title, author, description, rating, published_date):\n        self.id = id\n        self.title = title",
+        "detail": "basics.books",
+        "documentation": {}
+    },
+    {
+        "label": "BookRequest",
+        "kind": 6,
+        "importPath": "basics.books",
+        "description": "basics.books",
+        "peekOfCode": "class BookRequest(BaseModel):\n    id: Optional[int] = Field(description='field is fulfill automatically', default=None)\n    title: str = Field(min_length=3)\n    author: str = Field(min_length=3)\n    description: str = Field(min_length=1, max_length=100)\n    rating: int = Field(gt=0, lt=6)\n    published_date: Optional[int] = Field(description=\"release year\", default=None)\n    model_config = {\n        \"json_schema_extra\": {\n            \"example\": {",
+        "detail": "basics.books",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "basics.books",
+        "description": "basics.books",
+        "peekOfCode": "app = FastAPI()\nclass Book:\n    id: int\n    title: str\n    author: str\n    description: str\n    rating: int\n    published_date: int\n    def __init__(self, id, title, author, description, rating, published_date):\n        self.id = id",
+        "detail": "basics.books",
+        "documentation": {}
+    }
+]
