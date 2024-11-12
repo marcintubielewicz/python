@@ -2,10 +2,10 @@ from datetime import datetime, timedelta, timezone
 from fastapi import APIRouter, Depends, HTTPException
 from typing import Annotated
 from pydantic import BaseModel  
-from models import Users
+from ..models import Users
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
-from database import SessionLocal
+from ..database import SessionLocal
 from starlette import status
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from jose import jwt, JWTError
@@ -21,7 +21,7 @@ def load_config(filename):
         config = json.load(file)
     return config
 
-config = load_config('config.json')
+config = load_config('ToDo/config.json')
 
 SECRET_KEY = config.get('SECRET_KEY')
 ALGORITHM = config.get('ALGORITHM')
@@ -39,6 +39,7 @@ class CreateUserRequest(BaseModel):
     email: str
     hashed_password: str
     role: str
+    phone_number: str
     
 class Token(BaseModel):
     access_token: str
@@ -148,7 +149,8 @@ async def create_user(db: db_dependency,
         email=create_user_request.email,
         hashed_password=bcrypt_context.hash(create_user_request.hashed_password),
         role=create_user_request.role,
-        is_active=True
+        is_active=True,
+        phone_number = create_user_request.phone_number
     )
     
     db.add(create_user_model)
